@@ -10,7 +10,7 @@ cmake .. && sudo make -j install
 
 cd ../..
 
-read -p "delete build directory (openblas) (y/n): " del
+read -p "delete openblas/ (y/n): " del
 
 if [[ "$del" == "y" || "$del" == "Y" ]]; then
 	rm -rf OpenBLAS
